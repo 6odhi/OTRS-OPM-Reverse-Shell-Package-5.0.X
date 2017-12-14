@@ -9,7 +9,7 @@ OTRS OPM Reverse Shell opm Package 5.0.X - installation steps explanation
 Include otrs.xml and .opm files in the same folder.
 
 *****************************************************************************************************************************
- <Package>
+     <Package>
         <Name>OTRSMasterSlave</Name>
         <Version>5.0.1</Version>
         <Vendor>OTRS AG</Vendor>
@@ -22,7 +22,7 @@ Include otrs.xml and .opm files in the same folder.
         <Framework>5.0.x</Framework>
         <Filelist><FileDoc Location="doc/en/OTRSMasterSlave.pdf" Permission="644"/></Filelist>
         <File>OTRSMasterSlave-5.0.1.opm</File>
- </Package>
+    </Package>
 *****************************************************************************************************************************
 
 1. The above lines of code must be included in the otrs.xml file. These indicate the presence of the OTRSMasterSlave-5.0.1.opm package in the same directory where the otrs.xml is located.
